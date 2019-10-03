@@ -21,8 +21,8 @@ class Projects extends Component {
             Full Stack Blog built with React, Node, Express, and MySQL deployed to the cloud platform, Heroku. Login/Regristion secured with Node Crypto and JSON Web Token (JWT). Secure payments supported by Stripe API.
             </CardText>
             <CardActions border>
-              <Button colored><a target="_blank" style={{textDecoration:'none'}} href="https://github.com/Fraccas/3rdPartyAPIs/tree/master/Blog-Stripe">GitHub</a></Button>
-              <Button colored><a target="_blank" style={{textDecoration:'none'}} href="https://afternoon-basin-48933.herokuapp.com/">Live Demo</a></Button>
+              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://github.com/Fraccas/3rdPartyAPIs/tree/master/Blog-Stripe">GitHub</a></Button>
+              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://afternoon-basin-48933.herokuapp.com/">Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -37,7 +37,7 @@ class Projects extends Component {
               A React Web App that displays my resume, background information, education, and interests. You're currently looking at it!
               </CardText>
             <CardActions border>
-              <Button colored><a target="_blank" style={{textDecoration:'none'}} href="https://github.com/Fraccas/Portfolio-React">GitHub</a></Button>
+              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://github.com/Fraccas/Portfolio-React">GitHub</a></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
