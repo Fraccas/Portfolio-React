@@ -25,7 +25,9 @@ class App extends Component {
             </Navigation>
           </Drawer>
           <Content>
-            <div className="page-content" />
+            <div className="page-content">
+              <div className="page-h" style={{height: '100%'}}></div>
+            </div>
             <Main />
           </Content>
         </Layout>
