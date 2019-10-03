@@ -62,8 +62,8 @@
 }
 
 .contact-list i {
-  font-size: 66px;
-  padding-right: 5rem;
+  font-size: 55px;
+  padding-right: 3rem;
 }
 
 
@@ -115,6 +115,10 @@
 
 .contact-item {
   font-size: 30px;
+}
+
+.contact-item2 {
+  font-size: 20px;
 }
 
 /* Desktop/Large */

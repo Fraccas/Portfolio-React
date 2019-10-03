@@ -10,14 +10,14 @@ class Projects extends Component {
 
   toggleCategories() {
 
-    if(this.state.activeTab === 0){
+    if(this.state.activeTab === 0){ // React
       return(
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover', fontWeight: 'bold'}} ></CardTitle>
             <CardText>
-            <h5>Full Stack Blog</h5>
+            <h5 style={{fontWeight:'bold'}}>Full Stack Blog</h5>
             Full Stack Blog built with React, Node, Express, and MySQL deployed to the cloud platform, Heroku. Login/Regristion secured with Node Crypto and JSON Web Token (JWT). Secure payments supported by Stripe API.
             </CardText>
             <CardActions border>
@@ -33,8 +33,24 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} ></CardTitle>
             <CardText>
-              <h5>React Based Portfolio</h5>
-              A React Web App that displays my resume, background information, education, and interests. You're currently looking at it!
+              <h5 style={{fontWeight:'bold'}}>React Based Portfolio</h5>
+              A React Web App that displays my resume, background information, education, and interests. This React App is hosted on the Heroku Clould Platform. Technologies include HTML5/CSS3, JS, React, Bootstrap, and NPM.
+              </CardText>
+            <CardActions border>
+              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://github.com/Fraccas/Portfolio-React">GitHub</a></Button>
+              <Button colored><a style={{textDecoration:'none'}} href="/">Live Demo</a></Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* Project 3 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} ></CardTitle>
+            <CardText>
+              <h5 style={{fontWeight:'bold'}}>Coming Soon!</h5>
+              I'm currently working on my capstone project for my coding bootcamp. 
               </CardText>
             <CardActions border>
               <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://github.com/Fraccas/Portfolio-React">GitHub</a></Button>
@@ -47,13 +63,93 @@ class Projects extends Component {
         </div>
 
       )
-    } else if(this.state.activeTab === 1) {
+    } else if(this.state.activeTab === 1) { // Unity
       return (
-        <div><h1>This is Unity</h1></div>
+        <div className="projects-grid">
+          {/* Project 1 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://media.indiedb.com/images/games/1/70/69168/media_banner.png) center / cover', fontWeight: 'bold'}} ></CardTitle>
+            <CardText>
+            <h5 style={{fontWeight:'bold'}}>Masters of Drakoria</h5>
+            Masters of Drakoria is an online open-world creature taming game built with the Unity Game Engine using C#. Fight against wild creatures or other players in this world of dragons and beasts.
+            </CardText>
+            <CardActions border>
+              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://github.com/Fraccas/">GitHub</a></Button>
+              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://www.indiedb.com/games/masters-of-drakoria">Website</a></Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* Project 2 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://media.indiedb.com/images/games/1/65/64741/button_update.png) center / cover'}} ></CardTitle>
+            <CardText>
+              <h5 style={{fontWeight:'bold'}}>Roast Party</h5>
+              Roast Party is a standalone application built with Unity/C#, as well as a website using HTML5/CSS3, Bootstrap, JS, PHP, and MySQL. This online multiplayer party game is a blast to play with your friends!
+              </CardText>
+            <CardActions border>
+              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://github.com/Fraccas/">GitHub</a></Button>
+              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://www.indiedb.com/games/roast-party">Website</a></Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+        </div>
       )
-    } else if(this.state.activeTab === 2) {
+    } else if(this.state.activeTab === 2) { // Web Sites 
       return (
-        <div><h1>This is HTML5/CSS3 and PHP</h1></div>
+        <div className="projects-grid">
+          {/* Project 1 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(/media/xa.png) center / cover', fontWeight: 'bold'}} ></CardTitle>
+            <CardText>
+            <h5 style={{fontWeight:'bold'}}>Xtreme Athletics</h5>
+            Xtreme Athletics is a Gymnastics Center based in Opelika, AL. I had a one year contract with XA to redesign and create their site from scratch. Their site was built with HTML5/CSS3, JS, Bootstrap, PHP, and MySQL.
+            </CardText>
+            <CardActions border>
+              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://github.com/Fraccas/">GitHub</a></Button>
+              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="http://devfraccas.com/xtremeathleticsauburn/new_website/index.html">Website</a></Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* Project 2 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(/media/roastparty.png) center / cover'}} ></CardTitle>
+            <CardText>
+              <h5 style={{fontWeight:'bold'}}>Roast Party</h5>
+              Roast Party is a standalone application built with Unity/C#, as well as a website using HTML5/CSS3, Bootstrap, JS, PHP, and MySQL. This online multiplayer party game is a blast to play with your friends!
+              </CardText>
+            <CardActions border>
+              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://github.com/Fraccas/Roast-Party-Web">GitHub</a></Button>
+              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://www.indiedb.com/games/roast-party">Website</a></Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* Project 3 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(/media/devfraccas.png) center / cover'}} ></CardTitle>
+            <CardText>
+              <h5 style={{fontWeight:'bold'}}>DevFraccas</h5>
+              DevFraccas is an online business that I started in central Alabama to create sites for small businesses in the area. The technology I used for those services include HTML5/CSS3, JS, Bootstrap, PHP, and MySQL.
+              </CardText>
+            <CardActions border>
+              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://github.com/Fraccas/">GitHub</a></Button>
+              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="http://devfraccas.com/portfolio.html">Website</a></Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+        </div>
       )
     } else if(this.state.activeTab === 3) {
       return (
@@ -72,7 +168,6 @@ class Projects extends Component {
           <Tab>React</Tab>
           <Tab>Unity Game Engine</Tab>
           <Tab>HTML5/CSS3 & PHP</Tab>
-          <Tab>MongoDB</Tab>
         </Tabs>
 
 

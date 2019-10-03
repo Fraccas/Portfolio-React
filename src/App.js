@@ -11,6 +11,7 @@ class App extends Component {
         <Layout>
           <Header className="header-color" title={<Link style={{ textDecoration: 'none', color: 'white' }} to="/">James Ward</Link>} scroll>
             <Navigation>
+              <Link to="/">Home</Link>
               <Link to="/resume">Resume</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
@@ -18,9 +19,9 @@ class App extends Component {
           </Header>
           <Drawer title={<Link style={{ textDecoration: 'none', color: 'black' }} to="/">James Ward</Link>}>
             <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
+              <Link to="/resume" onClick={() => this.hideToggle()}>Resume</Link>
+              <Link to="/projects" onClick={() => this.hideToggle()}>Projects</Link>
+              <Link to="/contact" onClick={() => this.hideToggle()}>Contact</Link>
             </Navigation>
           </Drawer>
           <Content>
@@ -32,6 +33,12 @@ class App extends Component {
 
     );
   }
+
+  hideToggle() {
+    var selectorId = document.querySelector('.mdl-layout');
+    selectorId.MaterialLayout.toggleDrawer();
+  }
+  
 }
 
 export default App;
