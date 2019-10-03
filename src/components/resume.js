@@ -44,7 +44,7 @@ class Resume extends Component {
             <Education
               major={"Computer Science"}
               schoolName="Jefferson State"
-              schoolDescription="Jefferson State Community College is location in Birmingham, AL. I studied Computer Science there for two years where I learning the fundamentals of Object Oriented Programming using Java."
+              schoolDescription="Jefferson State Community College is location in Birmingham, AL. I studied Computer Science there for two years where I learned the fundamentals of Object Oriented Programming using Java."
             />
 
             <Education

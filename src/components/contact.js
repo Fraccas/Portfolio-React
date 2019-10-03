@@ -10,7 +10,7 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>James Ward</h2>
             <img
-              src={window.location.origin + "/media/katahdin.png"}
+              src={window.location.origin + "/media/katahdin.PNG"}
               alt="avatar"
               style={{height: '250px', borderRadius: '15px'}}
                />
