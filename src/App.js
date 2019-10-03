@@ -17,7 +17,7 @@ class App extends Component {
               <Link to="/contact">Contact</Link>
             </Navigation>
           </Header>
-          <Drawer title={<Link style={{ textDecoration: 'none', color: 'black' }} to="/">James Ward</Link>}>
+          <Drawer title={<Link style={{ textDecoration: 'none', color: 'black' }} to="/" onClick={() => this.hideToggle()}>James Ward</Link>}>
             <Navigation>
               <Link to="/resume" onClick={() => this.hideToggle()}>Resume</Link>
               <Link to="/projects" onClick={() => this.hideToggle()}>Projects</Link>

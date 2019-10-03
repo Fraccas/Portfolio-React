@@ -14,8 +14,8 @@ class Projects extends Component {
       return(
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover', fontWeight: 'bold'}} ></CardTitle>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'} }>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(/media/blog.png) center / cover', fontWeight: 'bold'}} ></CardTitle>
             <CardText>
             <h5 style={{fontWeight:'bold'}}>Full Stack Blog</h5>
             Full Stack Blog built with React, Node, Express, and MySQL deployed to the cloud platform, Heroku. Login/Regristion secured with Node Crypto and JSON Web Token (JWT). Secure payments supported by Stripe API.
@@ -30,8 +30,8 @@ class Projects extends Component {
           </Card>
 
           {/* Project 2 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} ></CardTitle>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(/media/portfolio.png) center / cover'}} ></CardTitle>
             <CardText>
               <h5 style={{fontWeight:'bold'}}>React Based Portfolio</h5>
               A React Web App that displays my resume, background information, education, and interests. This React App is hosted on the Heroku Clould Platform. Technologies include HTML5/CSS3, JS, React, Bootstrap, and NPM.
@@ -46,7 +46,7 @@ class Projects extends Component {
           </Card>
 
           {/* Project 3 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} ></CardTitle>
             <CardText>
               <h5 style={{fontWeight:'bold'}}>Coming Soon!</h5>
@@ -67,7 +67,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://media.indiedb.com/images/games/1/70/69168/media_banner.png) center / cover', fontWeight: 'bold'}} ></CardTitle>
             <CardText>
             <h5 style={{fontWeight:'bold'}}>Masters of Drakoria</h5>
@@ -83,7 +83,7 @@ class Projects extends Component {
           </Card>
 
           {/* Project 2 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://media.indiedb.com/images/games/1/65/64741/button_update.png) center / cover'}} ></CardTitle>
             <CardText>
               <h5 style={{fontWeight:'bold'}}>Roast Party</h5>
@@ -103,7 +103,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(/media/xa.png) center / cover', fontWeight: 'bold'}} ></CardTitle>
             <CardText>
             <h5 style={{fontWeight:'bold'}}>Xtreme Athletics</h5>
@@ -119,7 +119,7 @@ class Projects extends Component {
           </Card>
 
           {/* Project 2 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(/media/roastparty.png) center / cover'}} ></CardTitle>
             <CardText>
               <h5 style={{fontWeight:'bold'}}>Roast Party</h5>
@@ -135,7 +135,7 @@ class Projects extends Component {
           </Card>
 
           {/* Project 3 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(/media/devfraccas.png) center / cover'}} ></CardTitle>
             <CardText>
               <h5 style={{fontWeight:'bold'}}>DevFraccas</h5>
