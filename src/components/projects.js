@@ -37,7 +37,7 @@ class Projects extends Component {
               A React Web App that displays my resume, background information, education, and interests. You're currently looking at it!
               </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button colored><a target="_blank" style={{textDecoration:'none'}} href="https://github.com/Fraccas/Portfolio-React">GitHub</a></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
