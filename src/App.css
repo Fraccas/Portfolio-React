@@ -160,4 +160,8 @@
   .projects-grid {
     display: inline;
   }
+
+  .project-tabs {
+    margin-top: 45px;
+  }
 }

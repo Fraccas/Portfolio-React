@@ -15,7 +15,7 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'} }>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(/media/blog.png) center / cover', fontWeight: 'bold'}} ></CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(/media/blog2.png) center / cover', fontWeight: 'bold'}} ></CardTitle>
             <CardText>
             <h5 style={{fontWeight:'bold'}}>Full Stack Blog</h5>
             Full Stack Blog built with React, Node, Express, and MySQL deployed to the cloud platform, Heroku. Login/Regristion secured with Node Crypto and JSON Web Token (JWT). Secure payments supported by Stripe API.
@@ -163,10 +163,10 @@ class Projects extends Component {
 
   render() {
     return(
-      <div>
+      <div className="project-tabs">
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
           <Tab>React</Tab>
-          <Tab>Unity Game Engine</Tab>
+          <Tab>Unity Engine</Tab>
           <Tab>HTML5/CSS3 & PHP</Tab>
         </Tabs>
 
