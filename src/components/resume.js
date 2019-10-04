@@ -35,6 +35,9 @@ class Resume extends Component {
             <h5>Web</h5>
             <p>devfraccas.com</p>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+            <div className="linkedin-holder" style={{textAlign: 'center'}}> 
+              <div style={{textAlign: 'left', marginLeft: '0.8em'}} className="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="jamesdaltonward"><a className="LI-simple-link" href='https://www.linkedin.com/in/jamesdaltonward?trk=profile-badge'>James Dalton Ward</a></div>
+            </div>
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
@@ -43,7 +46,7 @@ class Resume extends Component {
             <Education
               major={"Computer Science"}
               schoolName="Jefferson State"
-              schoolDescription="Jefferson State Community College is location in Birmingham, AL. I studied Computer Science there for two years where I learned the fundamentals of Object Oriented Programming using Java."
+              schoolDescription="Jefferson State Community College is location in Birmingham, AL. I studied Computer Science for two years where I learned the fundamentals of Object Oriented Programming using Java."
             />
 
             <Education
@@ -59,8 +62,17 @@ class Resume extends Component {
             <Experience
               startYear={2017}
               endYear={"Current"}
-              jobName="Web Developer"
-              jobDescription="Self employed web developer in the central Alabama area providing web services for small businesses. I have over two years of experience creating websites using HTML5/CSS3, Bootstrap, JavaScript, PHP, and MySQL."
+              image={"devfraccas.png"}
+              jobName="DevFraccas - Web Developer"
+              jobDescription="DevFraccas provides web based services in the central Alabama area for small businesses. I have over two years of experience creating websites using HTML5/CSS3, Bootstrap, JavaScript, PHP, and MySQL."
+            />
+
+          <Experience
+              startYear={2016}
+              endYear={"Current"}
+              image={"avflores.jpg"}
+              jobName="Scops Thesis - Web/Application Developer"
+              jobDescription="Worked closely with a design team to create seamless UI and backend services across the board from web to mobile applications."
             />
 
             <hr style={{ borderTop: '3px solid #e22947' }} />

@@ -47,13 +47,13 @@ class Projects extends Component {
 
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} ></CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(/media/react-native.jpg) center / cover'}} ></CardTitle>
             <CardText>
-              <h5 style={{fontWeight:'bold'}}>Coming Soon!</h5>
-              I'm currently working on my capstone project for my coding bootcamp. 
+              <h5 style={{fontWeight:'bold'}}>React Native Mobile Blog</h5>
+              Full Stack React Native Mobile Blog App using Node/Express/MySQL for the backend. Deployed to Android and iOS using Expo. Shares backend security with the full stack blog hosted on Heroku using Node Crypto and JWT.    
               </CardText>
             <CardActions border>
-              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://github.com/Fraccas/Portfolio-React">GitHub</a></Button>
+              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://github.com/Fraccas/ReactNative/tree/master/StarterProject">GitHub</a></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
