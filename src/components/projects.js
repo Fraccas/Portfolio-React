@@ -11,7 +11,7 @@ class Projects extends Component {
   toggleCategories() {
 
     if(this.state.activeTab === 0){ // React
-      return(
+      return( 
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'} }>
