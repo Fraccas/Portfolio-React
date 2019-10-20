@@ -35,9 +35,9 @@ class Resume extends Component {
             <h5>Web</h5>
             <p>devfraccas.com</p>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
-            <div className="linkedin-holder" style={{textAlign: 'center'}}> 
+            {/* <div className="linkedin-holder" style={{textAlign: 'center'}}> 
               <div style={{textAlign: 'left', marginLeft: '0.8em'}} className="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="jamesdaltonward"><a className="LI-simple-link" href='https://www.linkedin.com/in/jamesdaltonward?trk=profile-badge'>James Dalton Ward</a></div>
-            </div>
+            </div> */}
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
