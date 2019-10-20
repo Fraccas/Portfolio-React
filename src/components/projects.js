@@ -18,7 +18,7 @@ class Projects extends Component {
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(/media/blog2.png) center / cover', fontWeight: 'bold'}} ></CardTitle>
             <CardText>
             <h5 style={{fontWeight:'bold'}}>Full Stack Blog</h5>
-            Full Stack Blog built with React, Node, Express, and MySQL deployed to the cloud platform, Heroku. Login/Regristion secured with Node Crypto and JSON Web Token (JWT). Secure payments supported by Stripe API.
+            Full Stack Blog built with React, Node, Express, and MySQL deployed to the cloud platform, Heroku. Login/Registion secured with Node Crypto and JSON Web Token (JWT). Secure payments supported by Stripe API.
             </CardText>
             <CardActions border>
               <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://github.com/Fraccas/3rdPartyAPIs/tree/master/Blog-Stripe">GitHub</a></Button>

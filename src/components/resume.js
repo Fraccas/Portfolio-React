@@ -69,10 +69,10 @@ class Resume extends Component {
 
           <Experience
               startYear={2016}
-              endYear={2019}
+              endYear={2018}
               image={"avflores.jpg"}
-              jobName="Scops Thesis - Web/Application Developer"
-              jobDescription="Worked closely with a design team to create seamless UI and backend services across the board from web to mobile applications."
+              jobName="Scops Thesis - Web/Game Developer"
+              jobDescription="Worked closely with a design team to create seamless UI and backend services across the board from web to game applications."
             />
 
             <hr style={{ borderTop: '3px solid #e22947' }} />
