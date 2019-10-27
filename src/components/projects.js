@@ -15,14 +15,14 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'} }>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(/media/blog2.png) center / cover', fontWeight: 'bold'}} ></CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(/media/fireapp6.jpg) center / cover', fontWeight: 'bold'}} ></CardTitle>
             <CardText>
-            <h5 style={{fontWeight:'bold'}}>Full Stack Blog</h5>
-            Full Stack Blog built with React, Node, Express, and MySQL deployed to the cloud platform, Heroku. Login/Registion secured with Node Crypto and JSON Web Token (JWT). Secure payments supported by Stripe API.
+            <h5 style={{fontWeight:'bold'}}>React Native - WildFire App</h5>
+            Full Stack Mobile App built with React Native, Node, Express, and MySQL. Login/Registion secured with Node Crypto and JSON Web Token (JWT). XML data pull from inciweb and converted to JSON. 
             </CardText>
             <CardActions border>
-              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://github.com/Fraccas/3rdPartyAPIs/tree/master/Blog-Stripe">GitHub</a></Button>
-              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://afternoon-basin-48933.herokuapp.com/">Live Demo</a></Button>
+              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://github.com/Fraccas/WildFireApp">GitHub</a></Button>
+              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="youtube.com">Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
