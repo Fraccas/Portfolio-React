@@ -22,7 +22,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://github.com/Fraccas/WildFireApp">GitHub</a></Button>
-              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="youtube.com">Live Demo</a></Button>
+              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://youtu.be/S_RCOQCZ3XQ">Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
