@@ -74,7 +74,7 @@ class Projects extends Component {
             Masters of Drakoria is an online open-world creature taming game built with the Unity Game Engine using C#. Fight against wild creatures or other players in this world of dragons and beasts.
             </CardText>
             <CardActions border>
-              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://github.com/Fraccas/">GitHub</a></Button>
+              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://www.youtube.com/watch?v=iDJlru421uY">YouTube</a></Button>
               <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://www.indiedb.com/games/masters-of-drakoria">Website</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -90,7 +90,7 @@ class Projects extends Component {
               Roast Party is a standalone application built with Unity/C#, as well as a website using HTML5/CSS3, Bootstrap, JS, PHP, and MySQL. This online multiplayer party game is a blast to play with your friends!
               </CardText>
             <CardActions border>
-              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://github.com/Fraccas/">GitHub</a></Button>
+              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://github.com/Fraccas/Roast-Party-Web">GitHub</a></Button>
               <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://www.indiedb.com/games/roast-party">Website</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -110,8 +110,8 @@ class Projects extends Component {
             Xtreme Athletics is a Gymnastics Center based in Opelika, AL. I had a one year contract with XA to redesign and create their site from scratch. Their site was built with HTML5/CSS3, JS, Bootstrap, PHP, and MySQL.
             </CardText>
             <CardActions border>
-              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://github.com/Fraccas/">GitHub</a></Button>
-              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="http://devfraccas.com/xtremeathleticsauburn/new_website/index.html">Website</a></Button>
+              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://github.com/Fraccas/Xtreme-Athletics">GitHub</a></Button>
+              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="http://devfraccas.com/xtremeathleticsauburn/new_website/index.html">Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -142,7 +142,6 @@ class Projects extends Component {
               DevFraccas is an online business that I started in central Alabama to create sites for small businesses in the area. The technology I used for those services include HTML5/CSS3, JS, Bootstrap, PHP, and MySQL.
               </CardText>
             <CardActions border>
-              <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://github.com/Fraccas/">GitHub</a></Button>
               <Button colored><a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="http://devfraccas.com/portfolio.html">Website</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
