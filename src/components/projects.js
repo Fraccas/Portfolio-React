@@ -166,7 +166,7 @@ class Projects extends Component {
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
           <Tab>React</Tab>
           <Tab>Unity Engine</Tab>
-          <Tab>HTML5/CSS3 & PHP</Tab>
+          <Tab>HTML5/CSS3</Tab>
         </Tabs>
 
 
