@@ -21,7 +21,7 @@ class Landing extends Component {
 
               <p style={{marginLeft: '1em', marginRight: '1em'}}>Hello, my name is James Dalton Ward. I'm a full stack web developer, game developer, avid backpacker, and snowboarder!</p>
               <p>C# | ASP.NET | React | React Native | NodeJS | Express | MySQL <br />
-              HTML5/CSS3 | Bootstrap | ES6 JavaScript | TypeScript | Heroku | Git</p>
+              HTML5/CSS3 | Bootstrap | ES6 JavaScript | TypeScript | Heroku | Git</p> 
 
               <div className="social-links">
 
