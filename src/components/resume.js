@@ -27,7 +27,7 @@ class Resume extends Component {
               Appalachian Trail thru-hiker. I hiked 2,200 miles from GA to ME over a 6 months period!</p>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
             <h5>Address</h5>
-            <p>982 24th Street Ogden, Utah 84401</p>
+            <p>900 Bitner Rd E22 Park City, UT 84098</p>
             <h5>Phone</h5>
             <p>(256) 749-3166</p>
             <h5>Email</h5>
@@ -60,19 +60,19 @@ class Resume extends Component {
             <h2>Work Experience</h2>
 
             <Experience
+              startYear={2019}
+              endYear={"Current"}
+              image={"impartner.jpg"} 
+              jobName="Impartner Software - Web Developer (Tier II)"
+              jobDescription="Working as a Tier II Web Developer using ASP.NET, C#, JS, and Angular. I manage four of our largest and most customized clients while serving as their Technical Account Manager."
+            />
+
+            <Experience
               startYear={2017}
               endYear={"Current"}
               image={"devfraccas.png"}
-              jobName="DevFraccas - Web Developer"
-              jobDescription="DevFraccas provides web based services in the central Alabama area for small businesses. I have over two years of experience creating websites using HTML5/CSS3, Bootstrap, JavaScript, PHP, and MySQL."
-            />
-
-          <Experience
-              startYear={2016}
-              endYear={2018}
-              image={"avflores.jpg"}
-              jobName="Scops Thesis - Web/Game Developer"
-              jobDescription="Worked closely with a design team to create seamless UI and backend services across the board from web to game applications."
+              jobName="DevFraccas - Web and Game Developer"
+              jobDescription="DevFraccas is the game company behind the online party game called Roast Party published for Web Browser, Steam Game Store, and the Apple App Store."
             />
 
             <hr style={{ borderTop: '3px solid #e22947' }} />
@@ -88,7 +88,7 @@ class Resume extends Component {
 
             <Experience
               startYear={2019}
-              endYear={"Current"}
+              endYear={"2019"}
               jobName="Full Stack Blog"
               jobDescription="Full Stack Blog built with React, Node, Express, and MySQL deployed to the cloud platform, Heroku. Login/Regristion secured with Node Crypto and JSON Web Token (JWT). Secure payments supported by Stripe API."
               link={<a href="https://afternoon-basin-48933.herokuapp.com/">Heroku App</a>}

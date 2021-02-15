@@ -15,11 +15,11 @@ class Landing extends Component {
               className="avatar-img"
             />
 
-            <div className="banner-text">
+            <div className="banner-text" style={{padding: '1em', marginTop: '20px'}}>
               <h1>Full Stack Web Developer</h1>
               <hr />
 
-              <p>React | React Native | NodeJS | Express | MySQL <br />
+              <p>C# | ASP.NET | React | React Native | NodeJS | Express | MySQL <br />
               HTML5/CSS3 | Bootstrap | ES6 JavaScript | TypeScript | Heroku | Git</p>
 
               <div className="social-links">
@@ -35,7 +35,7 @@ class Landing extends Component {
                 </a>
 
                 {/* DevFraccas */}
-                <a href="http://devfraccas.com" rel="noopener noreferrer" target="_blank">
+                <a href="https://store.steampowered.com/app/1193560/Roast_Party/" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-share-square" aria-hidden="true" />
                 </a>
 
