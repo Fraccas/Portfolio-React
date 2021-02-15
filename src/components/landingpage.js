@@ -19,6 +19,7 @@ class Landing extends Component {
               <h1>Full Stack Web Developer</h1>
               <hr />
 
+              <p style={{marginLeft: '1em', marginRight: '1em'}}>Hello, my name is James Dalton Ward. I'm a full stack web developer, game developer, avid backpacker, and snowboarder!</p>
               <p>C# | ASP.NET | React | React Native | NodeJS | Express | MySQL <br />
               HTML5/CSS3 | Bootstrap | ES6 JavaScript | TypeScript | Heroku | Git</p>
 
